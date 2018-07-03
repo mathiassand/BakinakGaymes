@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Objects\Item.cs" />
+     <Compile Include="Assets\Scripts\Objects\destryItem.cs" />
      <Compile Include="Assets\Scripts\Player\cameraBehavior.cs" />
      <Compile Include="Assets\Scripts\Player\player.cs" />
  <Reference Include="UnityEngine.UI">

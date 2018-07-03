@@ -12,9 +12,8 @@ public class Item : MonoBehaviour {
 		// Note that this is not the best method for doing so.
 		if ( other.gameObject.CompareTag("player")){
 			Instantiate (destroydVersion, transform.position, transform.rotation);
-			this.gameObject.SetActive (false);
+			Destroy (this.gameObject);
 			Debug.Log ("Collide");
-
 		}
 	}
 }
