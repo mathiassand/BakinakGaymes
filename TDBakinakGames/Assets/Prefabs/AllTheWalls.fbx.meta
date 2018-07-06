@@ -1,15 +1,32 @@
 fileFormatVersion: 2
-guid: 9af7d78e866aee84883e6d1e2c38906e
-timeCreated: 1530732132
+guid: 370c2723d666c0348898a38cae6d204b
+timeCreated: 1530878530
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Cornerwall
+    100004: Fourway
+    100006: Hallway
+    100008: Twall
     400000: //RootNode
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: pCube1
+    400002: Cornerwall
+    400004: Fourway
+    400006: Hallway
+    400008: Twall
+    2300000: Cornerwall
+    2300002: Fourway
+    2300004: Hallway
+    2300006: Twall
+    3300000: Cornerwall
+    3300002: Fourway
+    3300004: Hallway
+    3300006: Twall
+    4300000: Hallway
+    4300002: Cornerwall
+    4300004: Fourway
+    4300006: Twall
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -37,7 +54,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 350
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
