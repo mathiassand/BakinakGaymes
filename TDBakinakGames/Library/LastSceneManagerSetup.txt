@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Lars test Level.unity
+- path: Assets/Scenes/Anders test.unity
   isLoaded: 1
   isActive: 1
