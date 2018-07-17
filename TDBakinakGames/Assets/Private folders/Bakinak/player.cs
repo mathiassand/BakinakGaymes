@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//See following link for possible implementation of stats and such.
+//https://forum.unity.com/threads/tutorial-character-stats-aka-attributes-system.504095/
+
 public class player : MonoBehaviour {
 	public GameObject playerObject;
 	public Transform cameraAngle;
