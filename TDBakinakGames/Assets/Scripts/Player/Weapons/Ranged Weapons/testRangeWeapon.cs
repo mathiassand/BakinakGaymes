@@ -11,6 +11,7 @@ public class testRangeWeapon : RangedWeaponClass {
 	
 	// Update is called once per frame
 	void Update () {
-		action ();
+		listen ();
 	}
+		
 }
