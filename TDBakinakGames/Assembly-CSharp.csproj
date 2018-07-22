@@ -3,8 +3,9 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>8.0.30703</ProductVersion>
+    <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
     <ProjectGuid>{A8A20B98-FFB1-951D-8015-D07B9AFA1163}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -33,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.XML" />
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
@@ -42,21 +44,26 @@
     <Reference Include="UnityEditor">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
-    <Reference Include="System.Xml" />
-    <Reference Include="System.Security" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< Updated upstream
+     <Compile Include="Assets\Private folders\Bakinak\cameraBehavior.cs" />
+     <Compile Include="Assets\Private folders\Bakinak\player.cs" />
      <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\CameraControls.cs" />
      <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\IcoBumpin.cs" />
      <Compile Include="Assets\ProCore\ProBuilder\API Examples\Misc\HueCube.cs" />
      <Compile Include="Assets\ProCore\ProBuilder\API Examples\Procedural Mesh\ExtrudeRandomEdges.cs" />
      <Compile Include="Assets\ProCore\ProBuilder\API Examples\Runtime Editing\RuntimeEdit.cs" />
      <Compile Include="Assets\ProCore\ProBuilder\API Examples\Vertex Colors\HighlightNearestFace.cs" />
+     <Compile Include="Assets\Scripts\Enemy\EnemyClass.cs" />
      <Compile Include="Assets\Scripts\Objects\Item.cs" />
      <Compile Include="Assets\Scripts\Objects\destryItem.cs" />
-     <Compile Include="Assets\Scripts\Player\cameraBehavior.cs" />
-     <Compile Include="Assets\Scripts\Player\player.cs" />
+     <Compile Include="Assets\Scripts\Player\Weapons\Classes\MeleeWeaponClass.cs" />
+     <Compile Include="Assets\Scripts\Player\Weapons\Classes\RangedWeaponClass.cs" />
+     <Compile Include="Assets\Scripts\Player\Weapons\Classes\WeaponClass.cs" />
+     <Compile Include="Assets\Scripts\Player\Weapons\Ranged Weapons\testRangeWeapon.cs" />
+     <Compile Include="Assets\Scripts\Player\Weapons\Ranged Weapons\testRangeWeapon2.cs" />
+     <Compile Include="Assets\Scripts\Projectile\ProjectileClass.cs" />
+     <Compile Include="Assets\Scripts\Projectile\stdProjectile.cs" />
      <None Include="Assets\ProCore\ProBuilder\Shader\pb_TransparentOverlay.shader" />
      <None Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\README.txt" />
      <None Include="Assets\ProCore\ProBuilder\Shader\pb_SelectionPicker.shader" />
@@ -115,32 +122,6 @@
  <Reference Include="Poly2Tri">
  <HintPath>C:/Users/lars/Desktop/Gitstuff/BakinakGaymes/TDBakinakGames/Assets/ProCore/ProBuilder/Classes/ClassesLib/Poly2Tri.dll</HintPath>
  </Reference>
-=======
-    <Compile Include="Assets\Scripts\Objects\Item.cs" />
-    <Compile Include="Assets\Scripts\Player\cameraBehavior.cs" />
-    <Compile Include="Assets\Scripts\Player\player.cs" />
-    <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Networking">
-      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.TestRunner">
-      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
-    </Reference>
-    <Reference Include="nunit.framework">
-      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/nunit.framework.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Analytics">
-      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.HoloLens">
-      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.VR">
-      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
-    </Reference>
->>>>>>> Stashed changes
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -150,4 +131,5 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  
 </Project>
