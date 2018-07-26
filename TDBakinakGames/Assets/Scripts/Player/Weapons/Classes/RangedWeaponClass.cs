@@ -23,11 +23,11 @@ public class RangedWeaponClass : WeaponClass {
 	private Transform bulletSpawned;
 
 	public virtual void instantiateBullet(GameObject projectile, float angle, float damage, float range, float projectileSpeed){
-		bulletSpawned = Instantiate (projectile.transform, bulletSpawnPoint.transform.position, Quaternion.identity);
-		bulletSpawned.Rotate (0, bulletSpawnPoint.transform.rotation.eulerAngles.y+angle, 0);
 		projectile.GetComponent<ProjectileClass> ().range = range;
 		projectile.GetComponent<ProjectileClass> ().damage = damage;
 		projectile.GetComponent<ProjectileClass> ().speed = projectileSpeed;
+		bulletSpawned = Instantiate (projectile.transform, bulletSpawnPoint.transform.position, Quaternion.identity);
+		bulletSpawned.Rotate (0, bulletSpawnPoint.transform.rotation.eulerAngles.y+angle, 0);
 
 	}
 

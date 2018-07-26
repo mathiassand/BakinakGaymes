@@ -9,16 +9,15 @@ public class ProjectileClass : MonoBehaviour {
 	public float range;
 	public float speed;
 	public float damage;
-	GameObject triggeringEnemy;
 
 	//Functions:
 
-	public void projectileMovement(){
+	public virtual void projectileMovement(){
 		transform.Translate (Vector3.forward * Time.deltaTime * speed);
 		projectileTravelCounter ();
 	}
 
-	public void projectileTravelCounter(){
+	public virtual void projectileTravelCounter(){
 		travelledDistance += 1 *  Time.deltaTime;
 		if (travelledDistance >= range) {
 			expire ();
@@ -27,8 +26,9 @@ public class ProjectileClass : MonoBehaviour {
 	}
 
 	//Methods
-	public void damageEnemy(Collider other){
+	public virtual void damageEnemy(Collider other){
 		if (other.tag == "Enemy") {
+			GameObject triggeringEnemy;
 			triggeringEnemy = other.gameObject;
 			triggeringEnemy.GetComponent<EnemyClass> ().health -= damage;
 			if (triggeringEnemy.GetComponent<EnemyClass> ().health > 0) {

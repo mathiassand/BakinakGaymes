@@ -1,14 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\Weapons\MeleeWeaponClass.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Projectile\ProjectileClass.cs">
     <Files>
-      <File FileName="Assets\Scripts\Player\Weapons\MeleeWeaponClass.cs" Line="10" Column="92" />
-      <File FileName="Assets\Scripts\Player\Weapons\RangedWeaponClass.cs" Line="28" Column="3" />
-      <File FileName="Assets\Scripts\Player\Weapons\WeaponClass.cs" Line="19" Column="12" />
-      <File FileName="Assets\Scripts\Projectile\ProjectileClass.cs" Line="9" Column="21" />
-      <File FileName="Assets\Scripts\Projectile\stdProjectile.cs" Line="6" Column="2" />
-      <File FileName="C:\Users\Anders\Documents\GitHub\Top-down-shooter\Top down shooter\Assets\Scripts\Player.cs" Line="72" Column="1" />
-      <File FileName="Assets\Scripts\Player\Weapons\testRangeWeapon.cs" Line="14" Column="13" />
+      <File FileName="Assets\Scripts\Player\Weapons\Classes\WeaponClass.cs" Line="46" Column="3" />
+      <File FileName="Assets\Scripts\Player\Weapons\Classes\RangedWeaponClass.cs" Line="35" Column="23" />
+      <File FileName="Assets\Scripts\Projectile\ProjectileClass.cs" Line="22" Column="28" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
