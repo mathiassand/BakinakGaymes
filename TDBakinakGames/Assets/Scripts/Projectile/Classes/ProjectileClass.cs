@@ -31,13 +31,19 @@ public class ProjectileClass : MonoBehaviour {
 			GameObject triggeringEnemy;
 			triggeringEnemy = other.gameObject;
 			triggeringEnemy.GetComponent<EnemyClass> ().health -= damage;
-			if (triggeringEnemy.GetComponent<EnemyClass> ().health > 0) {
-				Destroy (this.gameObject);
-			}
+			Destroy (this.gameObject);
 		}
+	}
+
+	public virtual void hitWall(Collider other){
 		if (other.tag == "Wall") {
 			Destroy (this.gameObject);
 		}
+	}
+
+	public virtual void hitDetection(Collider other){
+		damageEnemy (other);
+		hitWall (other);
 	}
 
 	public virtual void expire(){

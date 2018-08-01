@@ -18,11 +18,10 @@ public class RangedWeaponClass : WeaponClass {
 	public float range2;
 
 	public float projectileSpeed1;
-	public float projectileSpeed2;
-
-	private Transform bulletSpawned;
+	public float projectileSpeed2; 
 
 	public virtual void instantiateBullet(GameObject projectile, float angle, float damage, float range, float projectileSpeed){
+		Transform bulletSpawned;
 		projectile.GetComponent<ProjectileClass> ().range = range;
 		projectile.GetComponent<ProjectileClass> ().damage = damage;
 		projectile.GetComponent<ProjectileClass> ().speed = projectileSpeed;

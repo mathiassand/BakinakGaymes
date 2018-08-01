@@ -15,6 +15,6 @@ public class stdProjectile : ProjectileClass {
 	}
 
 	void OnTriggerEnter(Collider other){
-		damageEnemy(other);
+		hitDetection (other);
 	}
 }

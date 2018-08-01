@@ -1,22 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-<<<<<<< HEAD
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Projectile\ProjectileClass.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Projectile\rocketProjectile.cs">
     <Files>
-      <File FileName="Assets\Scripts\Player\Weapons\Classes\WeaponClass.cs" Line="46" Column="3" />
-      <File FileName="Assets\Scripts\Player\Weapons\Classes\RangedWeaponClass.cs" Line="35" Column="23" />
-      <File FileName="Assets\Scripts\Projectile\ProjectileClass.cs" Line="22" Column="28" />
-=======
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\Weapons\Ranged Weapons\Handgun.cs">
-    <Files>
-      <File FileName="Assets\Scripts\Projectile\ProjectileClass.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Projectile\stdProjectile.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\Weapons\Classes\WeaponClass.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\Weapons\Classes\RangedWeaponClass.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\Weapons\Ranged Weapons\testRangeWeapon.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\Weapons\Ranged Weapons\testRangeWeapon2.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\Weapons\Ranged Weapons\Handgun.cs" Line="14" Column="13" />
->>>>>>> master
+      <File FileName="Assets\Scripts\Projectile\Classes\ProjectileClass.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Projectile\Classes\ExplosiveProjectileClass.cs" Line="40" Column="3" />
+      <File FileName="Assets\Scripts\Projectile\rocketProjectile.cs" Line="16" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
