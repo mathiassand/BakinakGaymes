@@ -7,6 +7,7 @@ public class ExplosiveProjectileClass : ProjectileClass {
 	//Variables
 	public float blastRadius;
 	public Vector3 center;
+	public GameObject explosionEffect;
 
 	//Functions
 	public virtual void Explosion(Vector3 center, float blastRadius){
@@ -18,7 +19,9 @@ public class ExplosiveProjectileClass : ProjectileClass {
 			}
 			i++;
 		}
+		Instantiate (explosionEffect, transform.position, Quaternion.identity);
 		Destroy (this.gameObject);
+
 	}
 
 	public override void damageEnemy(Collider other){
