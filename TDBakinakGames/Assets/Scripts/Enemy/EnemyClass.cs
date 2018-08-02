@@ -4,16 +4,19 @@ using UnityEngine;
 
 public class EnemyClass : MonoBehaviour {
 
+	//variables
 	public float health;
 	public float speed;
+	public float damage;
+	public float attackSpeed;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+
+
+	//Functions
+
+	public virtual void die(){
+		if (health <= 0) {
+			Destroy (this.gameObject);
+		}
 	}
 }

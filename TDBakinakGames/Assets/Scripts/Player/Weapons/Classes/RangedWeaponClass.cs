@@ -11,32 +11,19 @@ public class RangedWeaponClass : WeaponClass {
 	public GameObject bullet1;
 	public GameObject bullet2;
 
-	public float damage1;
-	public float damage2;
-
-	public float range1;
-	public float range2;
-
-	public float projectileSpeed1;
-	public float projectileSpeed2;
-
-	private Transform bulletSpawned;
-
-	public virtual void instantiateBullet(GameObject projectile, float angle, float damage, float range, float projectileSpeed){
+	public virtual void instantiateBullet(GameObject projectile, float angle){
+		Transform bulletSpawned;
 		bulletSpawned = Instantiate (projectile.transform, bulletSpawnPoint.transform.position, Quaternion.identity);
 		bulletSpawned.Rotate (0, bulletSpawnPoint.transform.rotation.eulerAngles.y+angle, 0);
-		projectile.GetComponent<ProjectileClass> ().range = range;
-		projectile.GetComponent<ProjectileClass> ().damage = damage;
-		projectile.GetComponent<ProjectileClass> ().speed = projectileSpeed;
 
 	}
 
 	public override void attack1(){
-		instantiateBullet (bullet1, 0, damage1, range1, projectileSpeed1);
+		instantiateBullet (bullet1, 0);
 	}
 
 	public override void attack2(){
-		instantiateBullet (bullet2, 0, damage2, range2, projectileSpeed2);
+		instantiateBullet (bullet2, 0);
 	}
 
 }

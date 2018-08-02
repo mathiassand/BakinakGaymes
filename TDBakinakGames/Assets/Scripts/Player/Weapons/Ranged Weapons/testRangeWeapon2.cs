@@ -15,8 +15,8 @@ public class testRangeWeapon2 : RangedWeaponClass {
 	}
 
 	public override void attack2(){
-		instantiateBullet (bullet2, 0, damage2, range2, projectileSpeed2);
-		instantiateBullet (bullet2, -10, damage2, range2, projectileSpeed2);
-		instantiateBullet (bullet2, 10, damage2, range2, projectileSpeed2);
+		instantiateBullet (bullet2, 0);
+		instantiateBullet (bullet2, -10);
+		instantiateBullet (bullet2, 10);
 	}
 }

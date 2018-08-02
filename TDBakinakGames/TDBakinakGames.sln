@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDBakinakGames", "Assembly-CSharp.csproj", "{A8A20B98-FFB1-951D-8015-D07B9AFA1163}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDBakinakGames", "Assembly-CSharp-firstpass.csproj", "{920DE14C-DD1A-7516-FA8E-793347607873}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDBakinakGames", "Assembly-CSharp-Editor.csproj", "{3DA782C7-138D-E577-230D-FFB3BE921F94}"
 EndProject
 Global
@@ -15,6 +17,10 @@ Global
 		{A8A20B98-FFB1-951D-8015-D07B9AFA1163}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8A20B98-FFB1-951D-8015-D07B9AFA1163}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8A20B98-FFB1-951D-8015-D07B9AFA1163}.Release|Any CPU.Build.0 = Release|Any CPU
+		{920DE14C-DD1A-7516-FA8E-793347607873}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{920DE14C-DD1A-7516-FA8E-793347607873}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{920DE14C-DD1A-7516-FA8E-793347607873}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{920DE14C-DD1A-7516-FA8E-793347607873}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3DA782C7-138D-E577-230D-FFB3BE921F94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3DA782C7-138D-E577-230D-FFB3BE921F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DA782C7-138D-E577-230D-FFB3BE921F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
